@@ -12,7 +12,7 @@ beforeAll(async () =>{
 
 describe('test route /users', () => {
 
-    test('should create country in database with sucess', async () => {
+    test('should create country in database with success', async () => {
         return request(app).get('/users').then((res) => {
             expect(res.status).toEqual(200)
             expect(res.body.message).toEqual('ok');
