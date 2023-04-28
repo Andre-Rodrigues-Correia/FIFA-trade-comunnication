@@ -1,5 +1,4 @@
-import './utils/module-alias';
-import router from "@src/routes";
+import router from "../src/routes";
 import express, {Request, Response} from 'express';
 import dotenv from 'dotenv'
 

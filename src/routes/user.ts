@@ -1,6 +1,6 @@
 
 import { Router } from "express";
-import {findAll} from "@src/controllers/user";
+import {findAll} from "../../src/controllers/user";
 
 const router = Router();
 
