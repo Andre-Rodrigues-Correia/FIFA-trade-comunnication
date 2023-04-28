@@ -1,5 +1,5 @@
 import * as mongoose from "mongoose";
-import { logger } from "@src/utils/logger";
+import { logger } from "../../src/utils/logger";
 
 const getDatabaseUrl = (): string =>{
 
